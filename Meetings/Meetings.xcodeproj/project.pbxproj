@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4800C1FE2B9A84F200BAE58E /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800C1FD2B9A84F200BAE58E /* NavigationStackView.swift */; };
+		4800C2002B9A86C200BAE58E /* TabViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800C1FF2B9A86C200BAE58E /* TabViewView.swift */; };
+		4800C2022B9A88A500BAE58E /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800C2012B9A88A500BAE58E /* ForEachView.swift */; };
 		4826F26D2B914B3000CBD5C2 /* ViewModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826F26C2B914B3000CBD5C2 /* ViewModifiersView.swift */; };
 		4826F26F2B914C1F00CBD5C2 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826F26E2B914C1F00CBD5C2 /* StateView.swift */; };
 		48D931CA2B86E5A400E62DE9 /* MeetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D931C92B86E5A400E62DE9 /* MeetingsApp.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4800C1FD2B9A84F200BAE58E /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
+		4800C1FF2B9A86C200BAE58E /* TabViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewView.swift; sourceTree = "<group>"; };
+		4800C2012B9A88A500BAE58E /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
 		4826F26C2B914B3000CBD5C2 /* ViewModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiersView.swift; sourceTree = "<group>"; };
 		4826F26E2B914C1F00CBD5C2 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		48D931C62B86E5A400E62DE9 /* Meetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +46,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4800C1FC2B9A7FD000BAE58E /* Meeting 04 */ = {
+			isa = PBXGroup;
+			children = (
+				4800C1FD2B9A84F200BAE58E /* NavigationStackView.swift */,
+				4800C1FF2B9A86C200BAE58E /* TabViewView.swift */,
+				4800C2012B9A88A500BAE58E /* ForEachView.swift */,
+			);
+			path = "Meeting 04";
+			sourceTree = "<group>";
+		};
 		482FAB072B9017F100500B1B /* Meeting 03 */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +84,7 @@
 		48D931C82B86E5A400E62DE9 /* Meetings */ = {
 			isa = PBXGroup;
 			children = (
+				4800C1FC2B9A7FD000BAE58E /* Meeting 04 */,
 				482FAB072B9017F100500B1B /* Meeting 03 */,
 				48D931E22B87E8AA00E62DE9 /* Meeting 02 */,
 				48D931C92B86E5A400E62DE9 /* MeetingsApp.swift */,
@@ -165,11 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4800C2022B9A88A500BAE58E /* ForEachView.swift in Sources */,
 				4826F26F2B914C1F00CBD5C2 /* StateView.swift in Sources */,
+				4800C2002B9A86C200BAE58E /* TabViewView.swift in Sources */,
 				48D931EA2B8810D800E62DE9 /* LayoutViews.swift in Sources */,
 				4826F26D2B914B3000CBD5C2 /* ViewModifiersView.swift in Sources */,
 				48D931CC2B86E5A400E62DE9 /* ContentView.swift in Sources */,
 				48D931E82B880F5500E62DE9 /* BasicViews.swift in Sources */,
+				4800C1FE2B9A84F200BAE58E /* NavigationStackView.swift in Sources */,
 				48D931CA2B86E5A400E62DE9 /* MeetingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
