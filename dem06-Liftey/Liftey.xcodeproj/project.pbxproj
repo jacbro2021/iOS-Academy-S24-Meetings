@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16533DA029AD24E000EB9DAC /* LifteyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16533D9F29AD24E000EB9DAC /* LifteyApp.swift */; };
+		16533DA229AD24E000EB9DAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16533DA129AD24E000EB9DAC /* ContentView.swift */; };
+		16533DA429AD24E200EB9DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16533DA329AD24E200EB9DAC /* Assets.xcassets */; };
+		16533DA729AD24E200EB9DAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16533DA629AD24E200EB9DAC /* Preview Assets.xcassets */; };
+		16533DB129AD252900EB9DAC /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16533DB029AD252900EB9DAC /* Exercise.swift */; };
+		16533DB329AD25BF00EB9DAC /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16533DB229AD25BF00EB9DAC /* Workout.swift */; };
+		16533DB529AD27A300EB9DAC /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16533DB429AD27A300EB9DAC /* WorkoutView.swift */; };
+		16533DB729AD280700EB9DAC /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16533DB629AD280700EB9DAC /* WorkoutViewModel.swift */; };
+		16533DBB29AD53A300EB9DAC /* CreateExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16533DBA29AD53A300EB9DAC /* CreateExerciseView.swift */; };
+		16EED26F29AD70FD001FC02A /* ExerciseRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EED26E29AD70FD001FC02A /* ExerciseRowItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16533D9C29AD24E000EB9DAC /* Liftey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liftey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16533D9F29AD24E000EB9DAC /* LifteyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifteyApp.swift; sourceTree = "<group>"; };
+		16533DA129AD24E000EB9DAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16533DA329AD24E200EB9DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16533DA629AD24E200EB9DAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16533DB029AD252900EB9DAC /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		16533DB229AD25BF00EB9DAC /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		16533DB429AD27A300EB9DAC /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		16533DB629AD280700EB9DAC /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
+		16533DBA29AD53A300EB9DAC /* CreateExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateExerciseView.swift; sourceTree = "<group>"; };
+		16EED26E29AD70FD001FC02A /* ExerciseRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRowItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16533D9929AD24E000EB9DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16533D9329AD24E000EB9DAC = {
+			isa = PBXGroup;
+			children = (
+				16533D9E29AD24E000EB9DAC /* Liftey */,
+				16533D9D29AD24E000EB9DAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16533D9D29AD24E000EB9DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16533D9C29AD24E000EB9DAC /* Liftey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16533D9E29AD24E000EB9DAC /* Liftey */ = {
+			isa = PBXGroup;
+			children = (
+				16533D9F29AD24E000EB9DAC /* LifteyApp.swift */,
+				16533DAD29AD24ED00EB9DAC /* Models */,
+				16533DAE29AD24FF00EB9DAC /* Views */,
+				16533DAF29AD250800EB9DAC /* ViewModels */,
+				16533DA129AD24E000EB9DAC /* ContentView.swift */,
+				16533DA329AD24E200EB9DAC /* Assets.xcassets */,
+				16533DA529AD24E200EB9DAC /* Preview Content */,
+			);
+			path = Liftey;
+			sourceTree = "<group>";
+		};
+		16533DA529AD24E200EB9DAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				16533DA629AD24E200EB9DAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		16533DAD29AD24ED00EB9DAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16533DB029AD252900EB9DAC /* Exercise.swift */,
+				16533DB229AD25BF00EB9DAC /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		16533DAE29AD24FF00EB9DAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16533DB429AD27A300EB9DAC /* WorkoutView.swift */,
+				16EED26E29AD70FD001FC02A /* ExerciseRowItemView.swift */,
+				16533DBA29AD53A300EB9DAC /* CreateExerciseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		16533DAF29AD250800EB9DAC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				16533DB629AD280700EB9DAC /* WorkoutViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16533D9B29AD24E000EB9DAC /* Liftey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16533DAA29AD24E200EB9DAC /* Build configuration list for PBXNativeTarget "Liftey" */;
+			buildPhases = (
+				16533D9829AD24E000EB9DAC /* Sources */,
+				16533D9929AD24E000EB9DAC /* Frameworks */,
+				16533D9A29AD24E000EB9DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Liftey;
+			productName = Liftey;
+			productReference = 16533D9C29AD24E000EB9DAC /* Liftey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16533D9429AD24E000EB9DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					16533D9B29AD24E000EB9DAC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 16533D9729AD24E000EB9DAC /* Build configuration list for PBXProject "Liftey" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16533D9329AD24E000EB9DAC;
+			productRefGroup = 16533D9D29AD24E000EB9DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16533D9B29AD24E000EB9DAC /* Liftey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16533D9A29AD24E000EB9DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16533DA729AD24E200EB9DAC /* Preview Assets.xcassets in Resources */,
+				16533DA429AD24E200EB9DAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16533D9829AD24E000EB9DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16533DA229AD24E000EB9DAC /* ContentView.swift in Sources */,
+				16533DA029AD24E000EB9DAC /* LifteyApp.swift in Sources */,
+				16533DBB29AD53A300EB9DAC /* CreateExerciseView.swift in Sources */,
+				16533DB129AD252900EB9DAC /* Exercise.swift in Sources */,
+				16EED26F29AD70FD001FC02A /* ExerciseRowItemView.swift in Sources */,
+				16533DB329AD25BF00EB9DAC /* Workout.swift in Sources */,
+				16533DB729AD280700EB9DAC /* WorkoutViewModel.swift in Sources */,
+				16533DB529AD27A300EB9DAC /* WorkoutView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16533DA829AD24E200EB9DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16533DA929AD24E200EB9DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16533DAB29AD24E200EB9DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Liftey/Preview Content\"";
+				DEVELOPMENT_TEAM = M23G284TD2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alecnipp.Liftey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16533DAC29AD24E200EB9DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Liftey/Preview Content\"";
+				DEVELOPMENT_TEAM = M23G284TD2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alecnipp.Liftey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16533D9729AD24E000EB9DAC /* Build configuration list for PBXProject "Liftey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16533DA829AD24E200EB9DAC /* Debug */,
+				16533DA929AD24E200EB9DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16533DAA29AD24E200EB9DAC /* Build configuration list for PBXNativeTarget "Liftey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16533DAB29AD24E200EB9DAC /* Debug */,
+				16533DAC29AD24E200EB9DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16533D9429AD24E000EB9DAC /* Project object */;
+}
