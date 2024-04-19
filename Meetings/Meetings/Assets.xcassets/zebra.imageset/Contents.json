@@ -1,12 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "m copy.png",
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "filename" : "m.png",
+      "filename" : "zebra.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
